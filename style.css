@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    top: 15%;
+    background: linear-gradient(to right, #3494E6, #EC6EAD);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.1em;
+    display: none;
+    color: #fff;
+    padding: 10px;
+    background: #000;
+    transition: all 0.6s ease-in;
+}
+
+#selectors {
+    margin: 20px 0px;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 62px;
+    height: 62px;
+    padding: 0px
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+a#makeApp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    border: 0px;
+    color: #fff;
+    padding: 5px 10px;
+}
